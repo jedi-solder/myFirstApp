@@ -22,7 +22,7 @@ export default {
 
 }
 .search-form__input {
-  width: 100px;
+  width: 150px;
   height: inherit;
   padding: 0 5px 0 15px;
   background: transparent;
