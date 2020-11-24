@@ -6,7 +6,7 @@
     <a href="#" class="header-navigation__link">Gallery</a>
     <a href="#" class="header-navigation__link">News</a>
     <a href="#" class="header-navigation__link">Team</a>
-    <a href="#" class="header-navigation__link header-navigation__link_active">Contact Us</a>
+    <a href="#" class="header-navigation__link">Contact Us</a>
   </nav>
 </template>
 
@@ -23,7 +23,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid white;
 }
 .header-navigation__link {
   color: #000000;
@@ -33,15 +33,16 @@ export default {
   text-decoration: none;
   margin: 0 1.2%;
 }
-.header-navigation__link_active{
-  color: green;
+.header-navigation__link_active {
+  color: white;
 }
 .header-navigation__link_active::after {
   content: "";
-  border-bottom: 3px solid green;
-  width: 80px;
+  color: white;
+  border-bottom: 3px solid white;
+  width: 100px;
   position: absolute;
   bottom: -1px;
-  margin-left: -80px;
 }
+
 </style>

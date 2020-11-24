@@ -1,17 +1,15 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Welcommmmmme to Your Vue.js App"/>
-  </div>
+  <Socialblock></Socialblock>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+// eslint-disable-next-line import/extensions
+import Socialblock from '@/blocks/Socialblock';
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
+    Socialblock,
   },
 };
 </script>
