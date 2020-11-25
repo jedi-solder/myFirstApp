@@ -46,4 +46,7 @@ export default {
   border-left: 1px solid white;
   cursor: pointer;
 }
+img {
+  padding-top: 4px;
+}
 </style>
