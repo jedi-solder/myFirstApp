@@ -25,6 +25,9 @@ export default {
 </script>
 
 <style scoped>
+img {
+  width: 100%;
+}
 .aboutContainer{
   width: inherit;
   padding: 80px 0;

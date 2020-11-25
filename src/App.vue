@@ -26,6 +26,7 @@
 .header-wrap {
   position: absolute;
   top: 12px;
+  width: 100%;
 }
 </style>
 <script>

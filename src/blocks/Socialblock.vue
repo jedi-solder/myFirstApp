@@ -18,7 +18,7 @@ export default {
 
 <style>
 .social {
-  width: 100vw;
+  width: 100%;
   background-image: url(../assets/img/main_image.png);
   background-size: cover;
   display: grid;
@@ -49,5 +49,6 @@ export default {
   font-style: normal;
   letter-spacing: normal;
   line-height: 48px;
+  height: 50px;
 }
 </style>

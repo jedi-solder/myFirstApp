@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 header {
-  width: 100vw;
+  width: 100%;
   height: 85px;
   background-color: #000000;
   opacity: 0.5;
