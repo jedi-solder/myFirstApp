@@ -31,18 +31,13 @@ export default {
   font-weight: 400;
   letter-spacing: 0.36px;
   text-decoration: none;
-  margin: 0 1.2%;
+  margin: 0 12px;
+  padding: 30px 10px 28px 10px;
 }
-.header-navigation__link_active {
-  color: white;
-}
-.header-navigation__link_active::after {
-  content: "";
+.header-navigation__link_active,
+.header-navigation__link:hover {
   color: white;
   border-bottom: 3px solid white;
-  width: 100px;
-  position: absolute;
-  bottom: -1px;
+  padding: 30px 10px 25px 10px;
 }
-
 </style>
