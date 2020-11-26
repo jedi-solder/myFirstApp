@@ -4,6 +4,7 @@
     <About></About>
     <Services></Services>
     <Gallery></Gallery>
+    <Testimonial></Testimonial>
   </div>
 </template>
 
@@ -16,10 +17,13 @@ import About from '@/blocks/About';
 import Services from '@/blocks/Services';
 // eslint-disable-next-line import/extensions
 import Gallery from '@/blocks/Gallery';
+// eslint-disable-next-line import/extensions
+import Testimonial from '@/blocks/Testimonial';
 
 export default {
   name: 'Home',
   components: {
+    Testimonial,
     Gallery,
     Services,
     About,

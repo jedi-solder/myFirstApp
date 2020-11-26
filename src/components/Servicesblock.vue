@@ -1,13 +1,13 @@
 <template>
   <div class="services__section">
+    <button class="services__button">
+      <img :src="require('../assets/icon/' + button_icon + '.svg')" alt="icon">
+    </button>
     <div class="services__text">
       <h3 class="services__text-head">{{ text_title }}</h3>
       <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut
         reiciendis voluptatibus maiores alias consequatur aut
         perferendis doloribus asperiores repellat.</p>
-    </div>
-    <div class="services__button">
-      <img :src="require('../assets/icon/' + button_icon + '.svg')" alt="icon">
     </div>
   </div>
 </template>
@@ -16,6 +16,7 @@
 export default {
   name: 'Servicesblock',
   props: ['text_title', 'button_icon'],
+
 };
 </script>
 
@@ -24,16 +25,16 @@ export default {
   display: flex;
   text-align: right;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 .services__section:nth-child(2n) {
   text-align: left;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 .services__text {
   width: 75%;
 }
 .services__text-head {
-  color: black;
   font-size: 16px;
   font-weight: 500;
   font-style: normal;
@@ -59,11 +60,14 @@ p {
   justify-content: center;
   align-items: center;
 }
+.services__button:focus,
 .services__button:hover {
-  cursor: pointer;
   background-color: #f44336;
+  outline: none;
+  cursor: pointer;
 }
-.services__button:hover + .services__text-head {
+.services__button:focus + div h3,
+.services__button:hover + div h3 {
   color: #f44336;
 }
 img {

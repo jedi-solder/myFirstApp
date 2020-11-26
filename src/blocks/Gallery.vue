@@ -12,7 +12,7 @@
         <Good good_name="RYSE: Son Of Rome"
               good_img="game_3">
         </Good>
-        <Good good_name="WORLD OF WARCRAFT: Wrath Of The Linch King"
+        <Good good_name="WORLD OF WARCRAFT: Wrath Of The Lich King"
               good_img="game_4">
         </Good>
       </div>
