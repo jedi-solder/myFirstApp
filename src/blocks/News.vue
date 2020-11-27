@@ -5,6 +5,9 @@
       <div class="newsAndEvents__wrap">
         <div class="news">
           <h2>Latest News</h2>
+          <Newsitem></Newsitem>
+          <Newsitem></Newsitem>
+          <Newsitem></Newsitem>
         </div>
         <div class="events"></div>
       </div>
@@ -15,13 +18,19 @@
 <script>
 // eslint-disable-next-line import/extensions
 import Headermt from '@/components/Headermt';
+// eslint-disable-next-line import/extensions
+import Newsitem from '@/components/Newsitem';
 
 export default {
   name: 'News',
-  components: { Headermt },
+  components: { Newsitem, Headermt },
 };
 </script>
 
 <style scoped>
+.news,
+.events {
+  width: 48%;
+}
 
 </style>

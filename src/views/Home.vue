@@ -5,6 +5,7 @@
     <Services></Services>
     <Gallery></Gallery>
     <Testimonial></Testimonial>
+    <News></News>
   </div>
 </template>
 
@@ -19,10 +20,13 @@ import Services from '@/blocks/Services';
 import Gallery from '@/blocks/Gallery';
 // eslint-disable-next-line import/extensions
 import Testimonial from '@/blocks/Testimonial';
+// eslint-disable-next-line import/extensions
+import News from '@/blocks/News';
 
 export default {
   name: 'Home',
   components: {
+    News,
     Testimonial,
     Gallery,
     Services,
